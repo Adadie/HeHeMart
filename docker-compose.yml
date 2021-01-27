@@ -56,7 +56,7 @@ services:
   db:
     image: library/postgres:11.1-alpine
     ports:
-      - 4500:4500
+      - 4500:5432
     restart: unless-stopped
     networks:
       - saleor-backend-tier
